@@ -4,28 +4,23 @@
 
 ## Build Setup
 
-``` bash
-# install dependencies
-npm install
+# npm较慢 使用cnpm代理
+$ npm install -g cnpm --registry=https://registry.npm.taobao.org
+$ npm config set registry https://registry.npm.taobao.org
 
-# serve with hot reload at localhost:8080
-npm run dev
+# 全局安装 vue-cli
+$ cnpm install --global vue-cli
+# 创建一个基于 webpack 模板的新项目
+$ vue init webpack my-project
 
-# build for production with minification
-npm run build
+## 启动
+$ cd my-project
+$ cnpm install
+$ cnpm run dev
 
-# build for production and view the bundle analyzer report
-npm run build --report
+# VUE语法
 
-# run unit tests
-npm run unit
+# 目录结构
+https://www.runoob.com/vue2/vue-directory-structure.html
 
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-# VUE
+#
